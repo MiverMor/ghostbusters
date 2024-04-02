@@ -1,0 +1,55 @@
+.header
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-left: 35px
+  height: 104px
+  border-bottom: 1px solid $line
+  &__logo
+    width: 68px
+    margin-right: 34px
+  &__search-input
+    background-image: url(../img/icons/search-icon.svg)
+    background-repeat: no-repeat
+    background-position: center left
+    border: none
+    outline: none
+    font-weight: 400
+    font-size: 18px
+    line-height: 21px
+    color: $text-secondary
+    padding-left: 38px
+    margin-left: 34px
+    margin-right: auto
+  &__navigation
+    margin-right: 44px
+    margin-left: auto
+    &--link
+      text-decoration: none
+      font-weight: 400
+      font-size: 18px
+      line-height: 21px
+      color: $text-primary
+      margin-right: 18px
+  &__buttons
+    height: 100%
+    border-left: 1px solid $line
+    &--signup
+      font-weight: 400
+      font-size: 18px
+      line-height: 21px
+      background-color: transparent
+      color: $primary
+      border: none
+      padding: 0 34px
+    &--login
+      font-weight: 400
+      font-size: 18px
+      line-height: 21px
+      background-color: $primary
+      color: #fff
+      border: none
+      padding: 0 50px
+.line
+  height: 100%
+  border-right: 1px solid $line
