@@ -541,4 +541,59 @@ template {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 7px;
+}
+
+.cast {
+  padding: 70px 0 100px 0;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.tabs__title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #A5A5A5;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.tabs__title-active {
+  font-weight: 900;
+  color: #363636;
+}
+.tabs__content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  margin-bottom: 35px;
+}
+.card__image {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.card__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671F6;
+  margin-bottom: 7px;
+}
+.card__enname {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A5A5A5;
 }/*# sourceMappingURL=style.css.map */
