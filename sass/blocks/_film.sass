@@ -1,0 +1,98 @@
+.film
+  padding: 80px 0
+  border-bottom: 1px solid $line
+  &__wrapper
+    display: flex
+  &__trailer
+    display: flex
+    flex-direction: column
+    &--poster
+      border-radius: 5px 5px 0 0
+      width: 358px
+  &__button
+    display: flex
+    align-items: center
+    justify-content: space-between
+    background-color: transparent
+    border: 1px solid $line
+    border-radius: 0 0 5px 5px
+    width: 100%
+    padding: 25px 81px
+    cursor: pointer
+    &--text
+      font-weight: 400
+      font-size: 16px
+      line-height: 19px
+      color: $primary
+  &__text
+    max-width: 516px
+    margin-left: 60px
+  &__title
+    font-weight: 900
+    font-size: 36px
+    line-height: 42px
+    margin: 0
+    margin-bottom: 16px
+  &__subtitle
+    display: inline-block
+    font-weight: 400
+    font-size: 18px
+    line-height: 21px
+    color: $text-secondary
+    margin-bottom: 32px
+  &__description
+    max-width: 514px
+    font-weight: 400
+    font-size: 14px
+    line-height: 150%
+    color: #000
+    margin: 0
+    margin-bottom: 50px
+  &__about
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 34px
+  &__leftside
+    display: flex
+    flex-direction: column
+    margin-right: 40px
+  &__rightside
+    display: flex
+    flex-direction: column
+  &__abouttext
+    display: block
+    font-size: 16px
+    line-height: 19px
+    margin-bottom: 16px
+    &--bold
+      display: inline-block
+      width: 100px
+      vertical-align: top
+      font-weight: 700
+.rating
+  display: flex
+  align-items: center
+  &__counter
+    width: 100px
+    height: 100px
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 1px solid $primary
+    border-radius: 10px
+    margin-right: 28px
+  &__description
+    display: flex
+    flex-direction: column
+  &__title
+    font-weight: 700
+    font-size: 18px
+    line-height: 21px
+    margin: 0
+    margin-bottom: 12px
+  &__text
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+    margin-bottom: 7px
