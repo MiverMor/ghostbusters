@@ -545,6 +545,7 @@ template {
 
 .cast {
   padding: 70px 0 100px 0;
+  border-bottom: 1px solid #D4D4D4;
 }
 
 .tabs {
@@ -596,4 +597,40 @@ template {
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
+}
+
+.news {
+  padding: 70px 0 100px 0;
+  background-color: #f3f3f3;
+}
+.news__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 65px;
+}
+.news__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.news__card {
+  flex-basis: 23%;
+  height: 160px;
+  background-color: #fff;
+  padding: 30px 30px 0 30px;
+  border-radius: 5px;
+}
+.news__card--date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.news__card--title {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 14px;
 }/*# sourceMappingURL=style.css.map */
