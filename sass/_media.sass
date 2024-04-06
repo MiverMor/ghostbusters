@@ -1,0 +1,130 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .header
+    &__search-input
+      margin-left: 20px
+    &__navigation
+      margin-right: 20px
+      &--link
+        margin-right: 10px
+    &__buttons
+      &--signup
+        padding: 0 17px
+      &--login
+        padding: 0 30px
+  .card
+    &__image
+      width: 70px
+      height: 70px
+@media (max-width: 991px)
+  .container
+    max-width: 760px
+  .header
+    height: 90px
+    padding-left: 10px
+    &__logo
+      margin-right: 20px
+    &__search-input
+      max-width: 190px
+      margin-left: 20px
+      padding-right: 10px
+      padding-left: 20px
+      font-size: 16px
+    &__navigation
+      display: none
+      &--link
+        font-size: 16px
+        margin-right: 5px
+  .film
+    &__title
+      font-size: 24px
+      line-height: 1.4
+    &__subtitle
+      margin-bottom: 20px
+    &__description
+      margin-bottom: 20px
+    &__about
+      margin-bottom: 20px
+    &__abouttext
+      &--bold
+        display: block
+        margin-bottom: 12px
+  .card
+    flex-basis: 50%
+    &__image
+      width: 100px
+      height: 100px
+  .news
+    &__card
+      flex-basis: 48%
+      margin-bottom: 20px
+@media (max-width: 768px)
+  .container
+    max-width: 560px
+  .line
+    display: none
+  .header
+    padding: 0 4%
+    &__search-input
+      display: none
+    &__buttons
+      display: none
+    &__mobile
+      display: flex
+  .film
+    padding-top: 50px
+    padding-bottom: 60px
+    &__wrapper
+      flex-wrap: wrap
+    &__text
+      order: -1
+      margin-left: 0
+      margin-bottom: 30px
+  .cast
+    padding: 50px 0 70px 0
+  .news
+    padding: 50px 0 70px 0
+@media (max-width: 576px)
+  .container
+    width: 95%
+  .film
+    &__trailer
+      width: 100%
+      margin-bottom: 20px
+      &--poster
+        width: 100%
+    &__text
+      order: 0
+      margin-bottom: 0
+    &__button
+      justify-content: center
+      &--icon
+        margin-right: 5px
+    &__title
+      font-size: 20px
+      line-height: 23px
+      margin-bottom: 12px
+    &__subtitle
+      font-size: 14px
+      line-height: 16px
+      margin-bottom: 26px
+    &__about
+      display: block
+    &__abouttext
+      display: flex
+      &--bold
+        width: 150px
+    &__description
+      font-weight: 400
+      font-size: 14px
+      line-height: 150%
+      margin-bottom: 40px
+  .cast
+    padding-bottom: 55px
+  .card
+    flex-basis: 100%
+  .news
+    padding-bottom: 40px
+    &__title
+      margin-bottom: 50px

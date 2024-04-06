@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 1130px;
+  max-width: 1130px;
   margin: auto;
 }
 
@@ -417,6 +417,31 @@ template {
   border: none;
   padding: 0 50px;
 }
+.header__mobile {
+  display: none;
+  align-items: center;
+}
+.header__button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 20px;
+}
+.header__menu {
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header__menu--line {
+  display: block;
+  height: 3px;
+  background-color: #363636;
+  width: 25px;
+  margin: 5px 0;
+  border-radius: 40px;
+}
 
 .line {
   height: 100%;
@@ -618,7 +643,7 @@ template {
 }
 .news__card {
   flex-basis: 23%;
-  height: 160px;
+  min-height: 160px;
   background-color: #fff;
   padding: 30px 30px 0 30px;
   border-radius: 5px;
@@ -633,4 +658,180 @@ template {
   font-size: 14px;
   line-height: 16px;
   margin-top: 14px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .header__search-input {
+    margin-left: 20px;
+  }
+  .header__navigation {
+    margin-right: 20px;
+  }
+  .header__navigation--link {
+    margin-right: 10px;
+  }
+  .header__buttons--signup {
+    padding: 0 17px;
+  }
+  .header__buttons--login {
+    padding: 0 30px;
+  }
+  .card__image {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 760px;
+  }
+  .header {
+    height: 90px;
+    padding-left: 10px;
+  }
+  .header__logo {
+    margin-right: 20px;
+  }
+  .header__search-input {
+    max-width: 190px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .header__navigation {
+    display: none;
+  }
+  .header__navigation--link {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .film__title {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .film__subtitle {
+    margin-bottom: 20px;
+  }
+  .film__description {
+    margin-bottom: 20px;
+  }
+  .film__about {
+    margin-bottom: 20px;
+  }
+  .film__abouttext--bold {
+    display: block;
+    margin-bottom: 12px;
+  }
+  .card {
+    flex-basis: 50%;
+  }
+  .card__image {
+    width: 100px;
+    height: 100px;
+  }
+  .news__card {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .line {
+    display: none;
+  }
+  .header {
+    padding: 0 4%;
+  }
+  .header__search-input {
+    display: none;
+  }
+  .header__buttons {
+    display: none;
+  }
+  .header__mobile {
+    display: flex;
+  }
+  .film {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .film__wrapper {
+    flex-wrap: wrap;
+  }
+  .film__text {
+    order: -1;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .cast {
+    padding: 50px 0 70px 0;
+  }
+  .news {
+    padding: 50px 0 70px 0;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+  .film__trailer {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .film__trailer--poster {
+    width: 100%;
+  }
+  .film__text {
+    order: 0;
+    margin-bottom: 0;
+  }
+  .film__button {
+    justify-content: center;
+  }
+  .film__button--icon {
+    margin-right: 5px;
+  }
+  .film__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 12px;
+  }
+  .film__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 26px;
+  }
+  .film__about {
+    display: block;
+  }
+  .film__abouttext {
+    display: flex;
+  }
+  .film__abouttext--bold {
+    width: 150px;
+  }
+  .film__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+  }
+  .cast {
+    padding-bottom: 55px;
+  }
+  .card {
+    flex-basis: 100%;
+  }
+  .news {
+    padding-bottom: 40px;
+  }
+  .news__title {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
