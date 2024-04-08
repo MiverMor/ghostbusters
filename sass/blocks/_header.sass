@@ -1,10 +1,16 @@
 .header
   display: flex
   align-items: center
-  justify-content: space-between
   padding-left: 35px
   height: 104px
   border-bottom: 1px solid $line
+  &__m-menu
+    height: 100%
+    align-items: center
+    display: flex
+    flex-grow: 1
+    &.active
+      display: flex
   &__logo
     width: 68px
     margin-right: 34px
@@ -38,7 +44,7 @@
       font-weight: 400
       font-size: 18px
       line-height: 21px
-      background-color: transparent
+      background-color: white
       color: $primary
       border: none
       padding: 0 34px
