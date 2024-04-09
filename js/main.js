@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     $(".tabs__content").removeClass("visible");
     $(activeTabContent).toggleClass("visible");
-  });
+  })
 
   const Myswiper = new Swiper('.swiper', {
   // Optional parameters
