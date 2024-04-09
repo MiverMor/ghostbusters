@@ -141,11 +141,13 @@
     <section class="cast">
       <div class="container">
         <div class="tabs">
-          <a href="#" class="tabs__title tabs__title-active">Актеры</a>
-          <a href="#" class="tabs__title">Создатели</a>
+          <h2 class="tab tabs__title active" data-target="#actors"
+            >Актеры</h2
+          >
+          <h2 class="tab tabs__title" data-target="#creators">Создатели</h2>
         </div>
         <!-- /.tabs -->
-        <div class="tabs__content">
+        <div class="tabs__content visible" id="actors">
           <div class="card">
             <img
               src="img/actors/1.png"
@@ -244,6 +246,33 @@
           <!-- /.card -->
         </div>
         <!-- /.tabs__content -->
+        <div class="tabs__content" id="creators">
+          <div class="card">
+            <img
+              src="img/actors/1.png"
+              alt="Image: Кэрри Кун"
+              class="card__image"
+            />
+            <div class="card__text">
+              <h3 class="card__name">Гил Кинан</h3>
+              <div class="span card__enname">Gil Kinan</div>
+            </div>
+          </div>
+          <!-- /.card -->
+          <div class="card">
+            <img
+              src="img/actors/2.png"
+              alt="Image: Билл Мюррей"
+              class="card__image"
+            />
+            <div class="card__text">
+              <h3 class="card__name">Джейсон Райтман</h3>
+              <div class="span card__enname">Djeyson Raytman</div>
+            </div>
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.tabs__contant -->
       </div>
       <!-- /.container -->
     </section>

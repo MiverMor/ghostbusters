@@ -12,13 +12,18 @@
     color: $text-secondary
     margin-right: 30px
     text-decoration: none
-    &-active
+    cursor: pointer
+    &.active
       font-weight: 900
       color: $text-primary
   &__content
-    display: flex
+    display: none
     align-items: center
     flex-wrap: wrap
+    visibility: hidden
+    &.visible
+      display: flex
+      visibility: visible
 .card
   display: flex
   align-items: center

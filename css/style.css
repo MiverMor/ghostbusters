@@ -598,15 +598,21 @@ template {
   color: #A5A5A5;
   margin-right: 30px;
   text-decoration: none;
+  cursor: pointer;
 }
-.tabs__title-active {
+.tabs__title.active {
   font-weight: 900;
   color: #363636;
 }
 .tabs__content {
-  display: flex;
+  display: none;
   align-items: center;
   flex-wrap: wrap;
+  visibility: hidden;
+}
+.tabs__content.visible {
+  display: flex;
+  visibility: visible;
 }
 
 .card {
