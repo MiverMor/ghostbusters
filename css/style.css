@@ -562,6 +562,9 @@ template {
   border: 1px solid #5671F6;
   border-radius: 10px;
   margin-right: 28px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #5671F6;
 }
 .rating__description {
   display: flex;
